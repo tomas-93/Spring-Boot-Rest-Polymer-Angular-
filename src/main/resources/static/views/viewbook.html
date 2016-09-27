@@ -1,0 +1,20 @@
+<div ng-controller="BookViewCtrl">
+    <paper-card elevation="2" class="card-table" style="padding: 5%; font-size: 20px">
+        <div>
+            <label>{{book.book_name}}</label>
+            <label style="margin-left: 15%">ID: {{book.id_book}}</label>
+        </div>
+        <div class="card-content">
+            <label>Autor: {{book .book_author}}</label><br>
+            <label>Editorial: {{book.book_editorial}}</label>
+        </div>
+        <div class="card-actions">
+            <a href="#/book/edit/{{book.id_book}}">
+                <paper-button>Edit</paper-button>
+            </a>
+            <a href="#/book/delete/{{book.id_book}}">
+                <paper-button>Eliminar</paper-button>
+            </a>
+        </div>
+    </paper-card>
+</div>

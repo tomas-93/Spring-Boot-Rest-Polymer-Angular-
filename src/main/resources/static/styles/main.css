@@ -1,0 +1,71 @@
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+table {
+    font-size: 18px;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+}
+
+.card-table {
+    margin: 4% 1%;
+    width: 98%;
+}
+
+.item-menu {
+    margin-left: 5%;
+}
+
+.pages {
+    text-align: center;
+}
+
+.title-head {
+    @apply(--paper-font-headline);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #808080;
+    border: 85px none #ffffff;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #808080;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #808080;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
+    border: 74px none #ffffff;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-track:active {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
