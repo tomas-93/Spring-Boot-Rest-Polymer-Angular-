@@ -1,8 +1,7 @@
 # Spring-Boot-Rest-Polymer-Angular-
 
-CRUD de la entidad Book donde se usan las siguientes herramientas.
-
-Spring Boot
-Spring JPA - Hibernate
-AngularJS
-Componentes de Polymer (Paper Elements)
+####CRUD de la entidad Book donde se usan las siguientes herramientas.
+1. Spring Boot
+2. Spring JPA - Hibernate
+3. AngularJS
+4. Componentes de Polymer (Paper Elements)
